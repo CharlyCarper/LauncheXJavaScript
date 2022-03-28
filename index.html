@@ -20,11 +20,16 @@
     <main>
         <section class="pokedex">
             <div class="elementos__pokedex">
-                <div  class="nombre__pokemon"><input type="text" placeholder="Nombre del pokemon" id="pokeName" name="pokeName"></div>
-                <div id="pokemonError" class="imagen__pokemon"> 
+                <div  class="nombre__pokemon">
+                    <input type="text" placeholder="Nombre del pokemon" id="pokeName" name="pokeName">
+                </div>
+                
+                <div class="imagen__pokemon"> 
                     <img id="pokeImg" src="/assets/pokeball.png" alt="pokemon"> 
                 </div>
+
                 <button onclick="fetchPokemon()" class="enviar">Enviar</button>
+
             </div>
         </section>
     </main>
