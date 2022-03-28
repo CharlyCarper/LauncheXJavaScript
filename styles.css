@@ -1,3 +1,57 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Globales */
+h1 {
+  text-align: center;
+}
+
+/* bg-de pokedex */
+.pokedex {
+  width: 40.39rem;
+  height: 80rem;
+  background-image: url(/assets/Pokedex.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: auto;
+}
+/* Estructura de pokedex */
+.elementos__pokedex {
+  display: flex;
+  flex-direction: column;
+}
+.nombre__pokemon {
+  margin-top: 10.5rem;
+  margin-left: 40%;
+}
+/* imagen del pokemon */
+#pokemonError {
+  margin-top: 3.5rem;
+  margin-left: 16.5%;
+  border-radius: 3px;
+  background-color: blue;
+  width: 60%;
+  height: 18rem;
+  background-image: url(/assets/backgroundforrest.png);
+  background-size: cover;
+}
+.imagen__pokemon img {
+    display: block;
+  width: 70%;
+  height: 90%;
+  padding: 1.2rem 3.3rem;
+}
+.enviar {
+  margin-top: 10rem;
+  width: 27%;
+  height: 5.5rem;
+  margin-left: 8.5rem;
+  background-color: #55ab62;
 }
