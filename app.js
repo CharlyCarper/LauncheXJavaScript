@@ -5,8 +5,9 @@ const fetchPokemon = () => {
     fetch(url).then((response) => {
         if (response.status !== 200) {
             console.log(response.status);
-            pokeImage('/assets/share-adivina-pokemon.jpg');
+            pokeImage(assets/share-adivina-pokemon.jpg);
         } else {
+            console.log(response);
             return response.json();
         }
     }).then((data) => {
