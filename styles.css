@@ -17,7 +17,7 @@ h1 {
 .pokedex {
   width: 40.39rem;
   height: 80rem;
-  background-image: url(assets/Pokedex.png);
+  background-image: url(assets/pokedex.png);
   background-repeat: no-repeat;
   margin: 0 auto;
   background-size: auto;
